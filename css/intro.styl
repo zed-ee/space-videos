@@ -1,0 +1,184 @@
+
+.startup
+  
+  h1
+    font-size: 2.63em;
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    margin-top: 2.5em;
+    line-height: 1em;
+    margin-bottom: 0.7em;
+
+    
+  .video
+    width: 20em;
+    height: 16em;
+    cursor: pointer;
+    position: relative;
+    background-size: 19em 15em;
+    background-repeat: no-repeat;
+    left: 50%;
+    &#eat
+      margin-left: -20em;
+      background-image: url('assets/eat.png')
+    &#sleep
+      top: -16em;
+      background-image: url('assets/sleep.png')
+    &#hair
+      top: -16em;
+      background-image: url('assets/hair.png')
+      margin-left: -30em;
+    &#tooth
+      top: -32em;
+      background-image: url('assets/tooth.png')
+      margin-left: -10em;
+    &#structure
+      left: 50%;
+      top: -48em;
+      background-image: url('assets/structure.png')
+      margin-left: 10em;
+
+  
+.intro
+  .block
+    font-size: 1.23em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -6.8em;
+    margin-left: -21.5em;
+    width: 42em;
+    img
+      float: left;
+      margin-right: 0.7em;      
+      width: 21em;
+      border-bottom: 3px solid #CCC;
+      border-top: 3px solid #dc621e;      
+      cursor:pointer;
+    h2
+      color: white;
+      margin-top: 0em;
+      font-size: 1.6em;     
+      margin-bottom: 0.3em;      
+    .message
+      font-weight: lighter;
+      font-size: 0.8em;
+      line-height: 1.4em;
+    .buttons
+      position: absolute;
+      left: 50%;
+      margin-top: 1.6em;
+      font-size: 0.83em;
+      text-align: center;
+      line-height: 2.4em;
+      .button
+        margin-left: 1em;
+        float:left;
+        text-transform: uppercase;
+        background-color: #dc621e;
+        box-shadow: 2px 3.464px 0px 0px rgba(187, 68, 1, 0.392);   
+        width: 92px;
+        height: 39px;      
+        font-weight: bold;
+        &.back
+          background-color: rgb(125, 52, 133);
+          box-shadow: 2px 3.464px 0px 0px rgba(95, 19, 103, 0.392);
+    
+.vision
+  article
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+  footer
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('assets/bg.jpg') center bottom;
+    height: 4em;
+    font-weight: bold;
+    font-size: 1.2em;    
+    nav
+      &.left
+        float:left
+        font-size: 1.1em;
+        margin: 1.2em 1.7em;        
+      &.right
+        float:right
+        div
+          float:right
+          cursor:pointer
+          color: #9f92d6;
+          float: right;
+          margin: 0;
+          cursor: pointer;
+          width: 6.6em;
+          height: 2.4em;
+          background-repeat: no-repeat;
+          margin-top: 0.7em;
+          background-size: 6.6em 2.4em;
+          margin-left: 0.2em
+          &.restart
+            background-image: url(assets/home.png);
+            margin-right: 2.4em;
+          &.prev
+            background-image: url(assets/back.png);
+          &.next
+            background-image: url(assets/next.png);
+          
+
+  
+  header
+    z-index: 9;
+    position: relative;
+    
+    &.camera 
+      >h2 
+        background-image: url("assets/camera.png");
+        width: 4em;
+        height: 4em;
+        float: right;
+        margin-right: 2em;
+        background-size: 4em;
+        margin-right: 5em;
+        display:none;
+        
+  section
+    width: 24em;
+    margin: 1em auto;
+    background: #000;
+    z-index: 26;
+    display: block;
+    position: relative;
+    padding: 3em 10em 3em 18em;
+
+    font-size: 1.2em;  
+    display: none;
+    box-shadow: 0em 0.4em #333;
+    border-radius: 0.5em;
+    
+    .image
+      background: url("assets/animals.png") no-repeat;
+      background-size: 53em;
+      width: 10.6em;
+      height: 10.6em;
+      font-size: 1em;
+      float: left;
+      margin-left: -13.6em;
+      &.image-0
+        background-position-x: 0.0em;
+      &.image-1
+        background-position-x: -10.7em;
+      &.image-2
+        background-position-x: -21.4em;
+      &.image-3
+        background-position-x: -32.1em;
+      &.image-4
+        background-position-x: -42.9em;
+          
+  

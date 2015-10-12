@@ -1,0 +1,10 @@
+<div class="block">
+<img class="play" src="assets/<%-app_data.videos[@index]%>_intro.jpg">
+<h2><%- app_data.messages[lang].info_title[app_data.videos[@index]] %></h2>
+<div class="image image-<%= @index %>"></div>
+<div class="message"><%- app_data.messages[lang].info_message[app_data.videos[@index]] %></div>
+<div class="buttons">
+  <div class="button back"><%- app_data.messages[lang].info_title.back %></div>
+  <div class="button play"><%- app_data.messages[lang].info_title.start %></div>
+</div>
+</div>

@@ -1,0 +1,8 @@
+<nav class="left">
+  <div class="info">Hetkel: <%- app_data.messages[lang].info_title[app_data.videos[@index]] %></div>
+</nav>  
+<nav class="right">
+  <div class="next"></div>
+  <div class="prev"></div>
+  <div class="restart"></div>
+</nav>
